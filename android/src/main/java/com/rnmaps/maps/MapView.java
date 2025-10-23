@@ -980,7 +980,7 @@ public class MapView extends com.google.android.gms.maps.MapView implements Goog
             map.setMyLocationEnabled(showUserLocation);
         }
 
-        setShowsMyLocationButton(false)
+        setShowsMyLocationButton(false);
     }
 
     public void setUserLocationPriority(int priority) {
