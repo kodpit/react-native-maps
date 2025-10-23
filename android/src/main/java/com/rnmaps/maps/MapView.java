@@ -224,6 +224,9 @@ public class MapView extends com.google.android.gms.maps.MapView implements Goog
             }
             paused = false;
         }
+
+        // disable user location button
+        setShowsUserLocation(false);
     }
 
 
