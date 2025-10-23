@@ -997,9 +997,7 @@ public class MapView extends com.google.android.gms.maps.MapView implements Goog
 
     public void setShowsMyLocationButton(boolean showMyLocationButton) {
         if (map != null) {
-            if (hasPermissions() || !showMyLocationButton) {
-                map.getUiSettings().setMyLocationButtonEnabled(showMyLocationButton);
-            }
+            map.getUiSettings().setMyLocationButtonEnabled(false);
         }
     }
 
