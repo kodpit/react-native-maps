@@ -981,7 +981,6 @@ public class MapView extends com.google.android.gms.maps.MapView implements Goog
         }
 
         setShowsMyLocationButton(false);
-
     }
 
     public void setUserLocationPriority(int priority) {
