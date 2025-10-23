@@ -979,6 +979,8 @@ public class MapView extends com.google.android.gms.maps.MapView implements Goog
             //noinspection MissingPermission
             map.setMyLocationEnabled(showUserLocation);
         }
+
+        setShowsMyLocationButton(false)
     }
 
     public void setUserLocationPriority(int priority) {
